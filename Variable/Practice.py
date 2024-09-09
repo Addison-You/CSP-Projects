@@ -1,0 +1,7 @@
+name = print("My name is Addison")
+print("7")
+print("250")
+print("I had nothing for breakfast")
+print("My favorite color is maroon")
+print("Ucas")
+print("2024")
