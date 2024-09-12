@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 int main(void){
-    float month, income, rent, utilties, groceries, transportation 
+    float month, income, rent, utilties, groceries, transportation, expenses 
+    float prent, putilties, pgroceries, ptransportation
     printf("This going to caculate your budget for this month\n");
     printf("How much do you make a month?\n");
     scanf("%f", &month)
-    printf("Your income is$%.2f\n", income);
+    printf("Your income is$%2f\n", income);
     scanf("%f", &income)
     printf("How much do is rent?\n")
     scanf("%f", &rent)
@@ -13,6 +14,8 @@ int main(void){
       scanf("%f", &groceries)
       printf("How much do you spend on transportation?\n");
       scanf("%f", &transportation)
+      expenses = rent, utilties, groceries, transportation
+      
 
 
     return 0;
