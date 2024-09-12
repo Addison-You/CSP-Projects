@@ -1,5 +1,5 @@
-name = "My name is Addison"
-number = "7"
+name = "My name is Addison";
+number = "7";
 number =  "250"
 breakfast = "I had nothing for breakfast"
 color = "My favorite color is maroon"
