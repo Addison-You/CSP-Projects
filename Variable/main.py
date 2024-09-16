@@ -1,9 +1,9 @@
-name = "Addison";
+name = "Jeff";
 
 
 
 print("Hello "+name+"!");
-name = "Jake"
+name = "Bob"
 print("Hello "+name+"!");
-name = "Lily";
+name = "Finn";
 print("Hello "+name+"!");
