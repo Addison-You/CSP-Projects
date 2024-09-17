@@ -1,4 +1,3 @@
-
 name = "My name is Addison"
 number = "7"
 number =  "250"
@@ -9,3 +8,4 @@ year = "2024"
 eye = "My eyes are brown"   
 age =   "I am 14"
 subjuct = "My favorite subject is biology"
+print(name, number, number, breakfast, color, school, year, eye, age, subjuct)
