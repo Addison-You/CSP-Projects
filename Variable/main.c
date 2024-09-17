@@ -1,7 +1,9 @@
 #include <stdio.h> 
 
 int main (void) {
-    printf ("Hello, World \n");
+        char name[30];
+     fgets(name, sizeof(name), stdin);
+    printf ("Hello, %s", name");
 
     return 0;
 }
