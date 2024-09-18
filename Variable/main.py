@@ -1,10 +1,5 @@
-
-name = "Jeff"
-input("Hello "+name+"!")
-name = "Bob"
-input("Hello "+name+"!")
-name = "Finn"
-input("Hello "+name+"!")
+input("what is you name?")
 name = "Addison"
-input("Hello "+name+"!")
+
+("Hello "+name+"!")
 print(name,) 
