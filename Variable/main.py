@@ -1,10 +1,10 @@
 
 name = "Jeff"
 input("Hello "+name+"!")
-namee = "Bob"
+name = "Bob"
 input("Hello "+name+"!")
-nameee = "Finn"
+name = "Finn"
 input("Hello "+name+"!")
-nameeee = "Addison"
+name = "Addison"
 input("Hello "+name+"!")
 print(name,) 
