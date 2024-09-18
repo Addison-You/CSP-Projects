@@ -1,5 +1,8 @@
-input("what is you name?")
-name = "Addison"
+name = "Addison";
+print("Hello "+name+ "!");
 
-print("Hello "+name+"!")
-print(name,) 
+name = "Lily";
+print("Hello "+name+ "!");
+
+name = "World";
+print("Hello "+name+ "!")
