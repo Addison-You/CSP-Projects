@@ -1,8 +1,4 @@
-name = "Addison";
-print("Hello "+name+ "!");
+name = input("What is your name?")
+name = "Addison"
 
-name = "Lily";
-print("Hello "+name+ "!");
-
-name = "World";
-print("Hello "+name+ "!")
+print("Hello",name)
