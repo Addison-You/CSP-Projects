@@ -1,4 +1,4 @@
-name = input("What is your name?")
-name = "Addison"
+user = input("What is your name?")
+name = "Barbie"
 
-print("Hello",name)
+print("Hello, " + name + "!")
