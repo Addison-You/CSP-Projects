@@ -15,19 +15,20 @@ int main(void) {
     printf("How much is transportation\n");
     scanf("%f", &transportation);
     expenses = rent + utilities + groceries + transportation;
-    savings = income - rent - utilities - groceries - transportation *2.;
+    savings = income *.2;
     total = income - expenses - savings;
     prent = rent/income *100;
     putilities = utilities/income *100;
     pgroceries = groceries/income *100;
     ptransportation = transportation/income *100;
     pexpenses = expenses/income *100;
-    printf("The total amount you spend is %.1f%% of your income\n", ptotal );
-    printf("Your expenses are %.1f%% of your income\n", pexpenses );
-    printf("Your rent are %.1f%% of your income\n", prent );
-    printf("Your utilities are %.1f%% of your income\n", putilities );
-    printf("Your groceries are %.1f%% of your income\n", pgroceries );
-    printf("Your transportation are %.1f%% of your income\n", ptransportation );
-    printf("Your savings are  $%d%% of your income\n", psavings );
+    printf("Your income is: $%d%%\n", income);
+    printf("Your expenses are: $%d%%\n", expenses);
+    printf("Your savings are: $%d%%\n", savings);
+    printf("Your total left to spend is: $%.2f\n", total);
+    printf("Your rent is %d%% of your income",(int) prent);
+    printf("Your rent is %d%% of your income",(int) putilities);
+    printf("Your rent is %d%% of your income",(int) ptransportation);
     return 0;
 }
+
