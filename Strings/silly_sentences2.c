@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int main(void){
-    char name[20], place[20], verb[20], noun[20], sentence[500];
+    char name[20], place[20], verb[20], noun[20], sentence[450];
     printf("Type a name: ");
     fgets(name, sizeof(name), stdin);
     printf("Type a place: ");
@@ -12,11 +12,11 @@ int main(void){
     printf("Type a noun: ");
     fgets(noun, sizeof(noun), stdin);
     strcat(sentence, name);
-    stract(sentence, " went to the ");
+    strcat(sentence, " went to the ");
     strcat(sentence, place);
-    stract(sentence, " where they ");
+    strcat(sentence, " where they ");
     strcat(sentence, verb);
-    stract(sentence, " and bought a "); 
+    strcat(sentence, " and bought a "); 
     printf("%s went to the %s where they %s and bought a %s", name, place, verb, noun); 
     return 0;
 }
