@@ -10,6 +10,7 @@
     "python.testing.unittestEnabled": true,
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
-        "Update_Budget.C": "cpp"
+        "Update_Budget.C": "cpp",
+        "raandom.C": "cpp"
     }
 }
