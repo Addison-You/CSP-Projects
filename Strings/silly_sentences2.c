@@ -1,22 +1,23 @@
 #include <stdio.h>
-#include <stdio.h>
+
+float name, place, verb, noun, sentence;
 
 int main(void){
     char name[20], place[20], verb[20], noun[20], sentence[450];
     printf("Type a name: ");
-    fgets(name, sizeof(name), stdin);
+    scanf("%f",&name);
     printf("Type a place: ");
-    fgets(place, sizeof(place), stdin);
+    scanf("%f",&place);
     printf("Type a verb: ");
-    fgets(verb, sizeof(verb), stdin);
+    scanf("%f",&verb);
     printf("Type a noun: ");
-    fgets(noun, sizeof(noun), stdin);
+    scanf("%f",&noun);
     strcat(sentence, name);
     strcat(sentence, " went to the ");
     strcat(sentence, place);
     strcat(sentence, " where they ");
     strcat(sentence, verb);
     strcat(sentence, " and bought a "); 
-    printf("%s went to the %s where they %s and bought a %s", name, place, verb, noun); 
+    printf("%s", sentence); 
     return 0;
 }

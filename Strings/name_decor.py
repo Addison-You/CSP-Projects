@@ -1,4 +1,4 @@
 name = input("Type your name: ")
-sentenenceOne = "((("
-sentenenceTwo = ")))"
+sentenenceOne = ":) :)"
+sentenenceTwo = ":) :)"
 print(sentenenceOne, name, sentenenceTwo)
