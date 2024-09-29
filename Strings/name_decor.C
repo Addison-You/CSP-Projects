@@ -1,9 +1,11 @@
 #include <stdio.h>
-#include <stdio.h>
+#include <cstring>
 
 int main(void){
     char name[20], sentence[20];
     printf("Type a name: ");
-    strcat(name, sizeof(name), stdin);
+    scanf("%s", &name);
+    strcat(sentence, name);
     printf("<<< %s >>>", name); 
+    return 0;
 }
