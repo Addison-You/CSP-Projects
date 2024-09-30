@@ -12,6 +12,7 @@
     "files.associations": {
         "name_decor.C": "cpp",
         "Update_Budget.C": "cpp",
-        "tempCodeRunnerFile.C": "cpp"
+        "tempCodeRunnerFile.C": "cpp",
+        "raandom.C": "cpp"
     }
 }
