@@ -13,6 +13,7 @@
         "name_decor.C": "cpp",
         "Update_Budget.C": "cpp",
         "tempCodeRunnerFile.C": "cpp",
-        "raandom.C": "cpp"
+        "raandom.C": "cpp",
+        "AgeCalculator.C": "cpp"
     }
 }
