@@ -1,13 +1,8 @@
-age = "17"
-if age == 18:
-    print("you can vote!")
+age = "19"
+
+if age >= 18:
+    print("you are old enough to vote!")
 
 
-else:
-    print("Couple more years.")
 
-if age == 16:
-    print("you can drive!")
 
-else:
-    print("Couple more years.")
