@@ -1,6 +1,6 @@
-today = "Monday"
-if today == "Saturday" or today == "holiday":
-    print("You can sleep in today!")
+age = "16"
+if age == "18"
+    print("you can vote!")
 
 else:
-    print("Wake up at 6am.")
+    print("Couple more years.")
