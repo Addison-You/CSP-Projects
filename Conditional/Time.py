@@ -1,6 +1,15 @@
 import datetime
 
-now = datetime.datetime.now().hour
+time = datetime.datetime.now().hour
 
-print(now)
+if time >= 12:
+    print("Good Morning!")
 
+elif time >= 18:
+    print("Good Afternoon!")
+
+elif time >= 16:
+    print("Good Evening!")
+
+else:
+    print("Go to bed!!")
