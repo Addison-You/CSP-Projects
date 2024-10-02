@@ -14,6 +14,7 @@
         "Update_Budget.C": "cpp",
         "tempCodeRunnerFile.C": "cpp",
         "raandom.C": "cpp",
-        "AgeCalculator.C": "cpp"
+        "AgeCalculator.C": "cpp",
+        "LetterGen.C": "cpp"
     }
 }
