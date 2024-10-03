@@ -12,4 +12,4 @@ elif time >= 16:
     print("Good Evening!")
 
 else:
-    print("Go to bed!!")
+    print("Go to bed,loser!!")

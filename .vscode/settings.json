@@ -15,6 +15,7 @@
         "tempCodeRunnerFile.C": "cpp",
         "raandom.C": "cpp",
         "AgeCalculator.C": "cpp",
-        "LetterGen.C": "cpp"
+        "LetterGen.C": "cpp",
+        "Update_HelloWorld.C": "cpp"
     }
 }
