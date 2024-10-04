@@ -1,3 +1,11 @@
-name = input("What is your name?")
+def getname(name):
+    return f"Hello {name}"
+print(getname("Allie"))
 
-print("Wow! Hi", name)
+print(getname("Lily"))
+
+print(getname("Landon"))
+
+print(getname("Brandon"))
+
+print(getname("Lila"))
