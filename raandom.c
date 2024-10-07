@@ -1,12 +1,10 @@
 #include <stdio.h>
-
-int age = 20;
-int main(void){
-   if (age >= 18  vote == true){
-        printf("You are able to vote!")
-   }else}  
-    printf("Sorry, your not old enough.")
-   {
-        
+char siblings[5][20] = {"Finn", "Addison", "Julian", "Mariela", "Monica"};
+int i;
+int main(){
+     while (i < 8)
+          printf("%s Jones\n", siblings[i]);
+          i+=1;
+     }
     return 0;
-}
+} 
