@@ -1,9 +1,14 @@
 #include <stdio.h> 
 
-int main (void){
-        char name[30];
-     fgets(name, sizeof(name), stdin);
-    printf ("Hello, %s", name");
+void names (char name[]){
+    printf("Hello %s", name);
+}
+int main(void){
+    names("Lily!\n");
+    names("Cadence!\n");
+    names("Brad!\n");
+    names("Tomas!\n");
+    names("Sawyer!\n");
 
-    return 0;
+
 }
