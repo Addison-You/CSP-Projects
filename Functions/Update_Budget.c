@@ -2,7 +2,7 @@
 float income, rent, utilities, groceries, transportation, expenses, savings, total;
 
 float input(char type[], float var){
-      printf("How much does your %s: \n", type);
+      printf("How much ia your monthly %s: \n", type);
       scanf("%f",&var);
       return var;
 }

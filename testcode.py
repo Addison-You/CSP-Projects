@@ -1,4 +1,7 @@
-i = 0
-while i < 10:
-  print(i)
-  i += 0
+import random
+
+word_list = ["chocolate", "clearance", "constant", "driver", "piece"
+            
+a = word_list
+
+print(random.choice(a))
