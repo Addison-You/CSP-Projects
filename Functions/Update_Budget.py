@@ -3,7 +3,7 @@ def user_inputs(type):
 
 
 
-print("This is going to calculate your budget for the month.")
+print("This is going to calculate your budge for the month.")
 income=float (input("What is your monthly income: "))
 rent=float (input("What is your monthly rent: "))
 utilities=float (input("What is your monthly utilities: "))

@@ -1,12 +1,14 @@
 #include <stdio.h>
+#include <stdbool.h>
 
-char siblings[5][20] = {"Finn", "Addison", "Julian", "Mariela", "Monica"};
+int age = 4;
+bool vote = false;
+int main(void){
+   if (age >= 18 && vote != false){
+        printf("You are old enough to vote!\n");
 
-int i;
-int main(){
-     while (i < 5){
-          printf("%s Jones\n", siblings[i]);
-          i+=1;
-     }
+   }else{
+    printf("Sorry, your not old enough\n");
+   };
     return 0;
-} 
+}

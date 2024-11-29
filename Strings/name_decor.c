@@ -6,6 +6,6 @@ int main(void){
     printf("Type a name: ");
     scanf("%s", &name);
     strcat(sentence, name);
-    printf(":) :) %s :) :)", name); 
+    printf(">>> %s <<<", name); 
     return 0;
 }

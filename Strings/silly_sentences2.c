@@ -3,7 +3,7 @@
 float name, place, verb, noun, sentence;
 
 int main(void){
-    char name[20], place[20], verb[20], noun[20], sentence[500];
+    char name[20], place[20], verb[20], noun[20], sentence[350];
     printf("Type a name: ");
     scanf("%s", &name);
     printf("Type a place: ");
